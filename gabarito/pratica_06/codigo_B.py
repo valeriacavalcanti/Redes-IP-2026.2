@@ -1,0 +1,9 @@
+qt = 0
+while True:
+    num = int(input('Número: '))
+    if num < 0:
+        break
+    if num == 0:
+        qt = qt + 1
+
+print(qt, num)
